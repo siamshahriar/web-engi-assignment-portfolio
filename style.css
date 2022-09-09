@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+  background: #222222;
+}
+
+/* header starts  */
+header {
+  width: 100%;
+  height: 4rem;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: fixed;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 100;
+  color: #bac964;
+}
+
+/* header ends  */
+
+/* home page starts */
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgb(12 12 12 / 33%), rgb(16 13 13 / 33%)),
+    url(./images/cover3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home div {
+  width: 30vw;
+}
+#home img {
+  width: 100%;
+}
+#home h2 {
+  font-size: 4rem;
+  font-weight: 200;
+}
+#home h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #6c7c0f;
+}
+#home span {
+  font-size: 1.4rem;
+  font-weight: 6500;
+}
+
+/* home page ends */
+
+/* Education starts  */
+#education {
+  padding: 3rem 0;
+  background: #222222;
+  color: white;
+  padding-top: 70px;
+
+}
+
+.for-centering {
+  width: 500px;
+  margin: 0 auto;
+}
+.for-centering h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.edu-box {
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 1.5rem 0;
+}
+.date {
+  margin-bottom: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+}
+.degree {
+  color: #bac964;
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.versity {
+  font-size: 21px;
+  font-weight: 400;
+  color: #d1d4bc;
+}
+
+/* Education Ends  */
