@@ -19,6 +19,7 @@ header {
   align-items: center;
   gap: 2rem;
   position: fixed;
+  z-index: 1000;
 }
 
 header a {
@@ -72,7 +73,6 @@ header a {
   background: #222222;
   color: white;
   padding-top: 70px;
-
 }
 
 .for-centering {
@@ -98,6 +98,9 @@ header a {
   font-weight: 700;
   color: #fff;
 }
+.date i {
+  margin-right: 0.4rem;
+}
 .degree {
   color: #bac964;
   font-size: 20px;
@@ -113,37 +116,36 @@ header a {
 /* Education Ends  */
 
 /* experiences starts  */
-#experience{
+#experience {
   padding: 3rem 0;
   /* background: #222222; */
   color: white;
   padding-top: 70px;
 }
-.exp-contents{
+.exp-contents {
   width: 900px;
   margin: 0 auto;
 }
-.exp-contents h2{
+.exp-contents h2 {
   text-align: center;
   margin-bottom: 2rem;
   font-weight: 600;
   font-size: 2rem;
   color: #b3c25d;
-
 }
-.exp-section-details{
+.exp-section-details {
   text-align: center;
   margin-bottom: 3rem;
   font-weight: 300;
   font-size: 1rem;
   padding: 0 100px;
 }
-.exp-boxes{
+.exp-boxes {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
-.exp-box{
+.exp-box {
   background-color: #333333;
   border-radius: 10px;
   padding: 1.5rem;
@@ -153,7 +155,7 @@ header a {
   align-items: center;
   gap: 1rem;
 }
-.icon-field{
+.icon-field {
   height: 130px;
   width: 130px;
   background-color: rgb(80, 80, 80);
@@ -161,19 +163,17 @@ header a {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.exp-box i{
+.exp-box i {
   font-size: 4rem;
   color: #bac964;
-  
 }
-.exp-box h3{
+.exp-box h3 {
   color: #bac964;
   font-size: 2rem;
   font-weight: 600;
 }
-.exp-box p{
+.exp-box p {
   text-align: center;
   line-height: 1.5rem;
   font-weight: 200;
@@ -181,25 +181,24 @@ header a {
 /* experiences Ends  */
 
 /* skill starts  */
-#skills{
+#skills {
   padding: 3rem 0;
   color: white;
   padding-top: 70px;
 }
-.skill-contents{
+.skill-contents {
   width: 1100px;
   margin: 0 auto;
 }
-.skill-contents h2{
+.skill-contents h2 {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   font-weight: 600;
   font-size: 2rem;
   color: #b3c25d;
-
 }
 
-.skill-boxes{
+.skill-boxes {
   background-color: #333333;
   border-radius: 10px;
   width: 1100px;
@@ -208,7 +207,7 @@ header a {
   height: auto;
   padding-bottom: 3rem;
 }
-.skill-boxes h3{
+.skill-boxes h3 {
   text-align: center;
   margin-bottom: 2rem;
   font-weight: 500;
@@ -216,13 +215,13 @@ header a {
   color: #b3c25d;
   margin-top: 0.7rem;
 }
-.skill-icons{
-display: flex;
+.skill-icons {
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.3rem;
 }
-.skill-box{
+.skill-box {
   width: 100px;
   height: 165px;
   background-color: rgb(80, 80, 80);
@@ -234,14 +233,224 @@ display: flex;
   align-items: center;
   gap: 1rem;
 }
-.skill-box img{
+.skill-box img {
   width: 100%;
-  height: ;
 }
-.skill-box p{
+.skill-box p {
   color: #d1d4bc;
   font-size: 1.4rem;
   font-weight: 500;
   text-align: center;
 }
 /* skill Ends  */
+
+/* About starts  */
+#about {
+  padding: 3rem 0;
+  color: white;
+  padding-top: 70px;
+}
+.about-field {
+  width: 1100px;
+  height: 450px;
+  margin: 0 auto;
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+#about h2 {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #b3c25d;
+}
+.myImage {
+  width: 35%;
+}
+.myImage img {
+  width: 100%;
+  position: relative;
+  bottom: -10px;
+}
+.about-text {
+  width: 50%;
+}
+.about-text h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #b3aeae;
+}
+.about-text p {
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-text p:nth-child(4), .about-text p:nth-child(5) {
+  margin-top: -1rem;
+  text-align: end;
+  color: #dadada;
+}
+.about-text a {
+  background-color: #93a819;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-decoration: None;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  margin-right: 0.6rem;
+  transition: all 0.25s ease-in-out;
+}
+.about-text a:nth-child(6) {
+  background-color: #419431;
+}
+.about-text a:hover {
+  background-color: #6e7e14;
+  color: rgb(184, 184, 184);
+}
+.about-text a:hover:nth-child(6) {
+  background-color: #156d3a;
+  color: rgb(184, 184, 184);
+}
+/* About Ends  */
+
+/* Contact starts  */
+#contact {
+  padding: 3rem 0;
+  color: white;
+  padding-top: 70px;
+}
+.contact-area {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 3rem;
+  padding-left: ;
+  padding-right: ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#contact h2 {
+  text-align: center;
+  margin-bottom: 5rem;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #b3c25d;
+}
+.get-in-touch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.get-in-touch h3{
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #b3c25d;
+}
+.get-in-touch input,
+textarea {
+  font-family: "Mulish", sans-serif;
+  width: 400px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border-style: none;
+  background: rgb(80, 80, 80);
+  color: #fff;
+  outline: none;
+}
+
+.get-in-touch input::placeholder,
+textarea::placeholder {
+  color: #d1d4bc;
+  font-weight: 100;
+}
+.get-in-touch input:focus,
+textarea:focus {
+  border: 1.6px solid #93a819;
+}
+.get-in-touch a {
+  width: 110px;
+  background-color: #93a819;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: None;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 5600;
+  transition: all 0.25s ease-in-out;
+}
+.get-in-touch a:hover{
+  background-color: #606e11;
+
+}
+.contact-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+  bottom: 73px;
+}
+.contact-details h3{
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #b3c25d;
+  position: relative;
+  bottom: 101px
+}
+.contact-info p{
+  color: #6c7c0f;
+}
+.contact-info span{
+  color: #dadada;
+  font-weight: 100;
+  margin-top: -30px;
+}
+
+/* Contact Ends  */
+
+/* footer starts  */
+footer{
+  color: #fff;
+  background: #2e2e2e;
+  padding: 1.8rem;
+}
+.footer-area{
+  text-align: center;
+}
+
+#myName{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.7rem;
+}
+.social-icons a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 2rem;
+  transition: all 0.25s ease-in-out;
+}
+.social-icons a:hover{
+  font-size: 2.5rem;
+
+}
+.social-icons{
+  margin-top: 15px;
+}
+/* footer ends  */
