@@ -84,6 +84,7 @@ header a {
   margin-bottom: 3rem;
   font-weight: 600;
   font-size: 2rem;
+  color: #b3c25d;
 }
 .edu-box {
   background-color: #333333;
@@ -110,3 +111,75 @@ header a {
 }
 
 /* Education Ends  */
+
+/* experiences starts  */
+#experience{
+  padding: 3rem 0;
+  /* background: #222222; */
+  color: white;
+  padding-top: 70px;
+}
+.exp-contents{
+  width: 900px;
+  margin: 0 auto;
+}
+.exp-contents h2{
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #b3c25d;
+
+}
+.exp-section-details{
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 0 100px;
+}
+.exp-boxes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.exp-box{
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.icon-field{
+  height: 130px;
+  width: 130px;
+  /* background-color: #5e5c5c; */
+  /* background-color: #5c6433; */
+  background-color: rgb(80, 80, 80);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.exp-box i{
+  font-size: 4rem;
+  color: #bac964;
+  
+}
+.exp-box h3{
+  color: #bac964;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.exp-box p{
+  text-align: center;
+  line-height: 1.5rem;
+  font-weight: 200;
+}
+/* experiences Ends  */
+
+
